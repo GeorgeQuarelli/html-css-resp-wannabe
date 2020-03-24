@@ -67,17 +67,20 @@ img{
 }
 
 @media screen and (max-width:768px) {
+
     .row {
         width: 90%;
     }
-    img {
-        box-sizing: border-box;
-        object-fit: contain;
-    }
+}
 
-    #steps img {
-        box-sizing: border-box;
-        width: 50%;
-        object-fit: contain;
+@media screen and (max-width:420px) {
+
+    #lezioni .row < .left,
+    #lezioni .row > .right,
+    #steps .row > .left,
+    #steps .row > .central,
+    #steps .row > .right {
+        width: 100%;
+        margin-bottom: 40px;
     }
 }
