@@ -75,7 +75,7 @@ img{
 
 @media screen and (max-width:420px) {
 
-    #lezioni .row < .left,
+    #lezioni .row > .left,
     #lezioni .row > .right,
     #steps .row > .left,
     #steps .row > .central,
