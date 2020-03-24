@@ -65,3 +65,19 @@ img{
 .clear {
   clear:both;
 }
+
+@media screen and (max-width:768px) {
+    .row {
+        width: 90%;
+    }
+    img {
+        box-sizing: border-box;
+        object-fit: contain;
+    }
+
+    #steps img {
+        box-sizing: border-box;
+        width: 50%;
+        object-fit: contain;
+    }
+}
